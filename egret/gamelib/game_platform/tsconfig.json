@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"outFile": "bin/game_platform.js",
+		"declaration": true,
+		"lib": [
+			"es5",
+			"dom",
+			"es2015.promise"
+		]
+	},
+	"files": [
+		"../egret/egret.d.ts",
+		"../egret/game.d.ts",
+		"../egret/eui.d.ts",
+		"../egret/assetsmanager.d.ts",
+
+		"src/platform/fpclient.d.ts",
+		"src/IGamePlatform.ts",
+		"src/GamePlatform.ts",
+		"src/PlatformFanPianWan.ts",
+		"src/PlatformProxy.ts"
+	]
+}

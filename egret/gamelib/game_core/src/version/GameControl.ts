@@ -1,0 +1,1 @@
+declare var resourceVersion: string;

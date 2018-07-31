@@ -1,0 +1,47 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"outFile": "bin/game_core.js",
+		"declaration": true,
+		"lib": [
+			"es5",
+			"dom",
+			"es2015.promise"
+		]
+	},
+	"files": [
+		"../egret/egret.d.ts",
+		"../egret/game.d.ts",
+		"../egret/eui.d.ts",
+		"../egret/socket.d.ts",
+		"../egret/assetsmanager.d.ts",
+		"../egret/dragonBones.d.ts",
+		"src/log/Log.ts",
+		"src/mvc/interfaces/IMediator.ts",
+		"src/mvc/Mediator.ts",
+		"src/mvc/Facade.ts",
+		"src/util/NetUtil.ts",
+		"src/util/TimeUtil.ts",
+		"src/util/ParamsUtil.ts",
+		"src/util/RandomUtil.ts",
+		"src/view/BaseView.ts",
+		"src/view/BaseRenderView.ts",
+		"src/ui/UIComponent.ts",
+		"src/ui/UIButton.ts",
+		"src/ui/UICircleLoading.ts",
+		"src/ui/UIGrid.ts",
+		"src/ui/UIGrid.ts",
+		"src/ui/UIList.ts",
+		"src/net/LinkProxy.ts",
+		"src/scene/IScene.ts",
+		"src/scene/SceneBase.ts",
+		"src/scene/SceneManager.ts",
+		"src/manager/PopupManager.ts",
+		"src/manager/SoundManager.ts",
+		"src/manager/IUpdateable.ts",
+		"src/manager/UpdateManager.ts",
+		"src/manager/XMLManager.ts",
+		"src/version/GameControl.ts",
+		"src/dragonbones/DragonBonesAnimation.ts"
+	]
+}
